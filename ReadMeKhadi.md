@@ -26,7 +26,7 @@ adoption form :
 ![adoptionform](image/adoptionRequestForm.png)
 
 
-----What I Learned:-----
+----What I Learned:----
 - How to structure a web page using HTML.
 - Styling using CSS.
 
