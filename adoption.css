@@ -1,0 +1,58 @@
+body{
+    background-color:whitesmoke;
+    margin:0px;
+}
+.info label{
+    display: none;
+}
+label{
+    font-family: dynapuff;
+    font-size: 16px;
+    color: #25344f;
+}
+h1{
+    font-family: dynapuff;
+    text-align: center;
+    color: #25344f;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 360px;
+    padding: 24px;
+    background-color:aliceblue;
+}
+input{
+margin: 16px;
+padding: 16px;
+border-radius: 12px;
+width: 280px;
+border: none;
+}
+.send-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.send-button{
+    background-color: #25344f;
+    color:#617891 ;
+    font-family: dynapuff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 12px 36px;
+   border-radius: 12px;
+}
+.send-button:hover{
+    background-color: #617891;
+    color:#25344f;
+     font-family: dynapuff;
+      font-size: 20px;
+}

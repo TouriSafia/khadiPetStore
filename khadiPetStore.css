@@ -1,0 +1,135 @@
+body{
+    background-color:whitesmoke; 
+} 
+h1{
+   color:#25344f ; 
+    font-family: dynapuff;
+}
+
+.navbar h3{
+    float: left;
+    color: #d5b893;
+    padding-left: 25px;
+    font-family: dynapuff;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: #25344f;
+   padding: 0px;
+   margin: 0px;
+   overflow: hidden;
+
+}
+.navbar a{
+    text-decoration: none;
+     color: #d5b893;
+     display: block;
+     text-align: center;
+     padding: 15px;
+}
+.navbar li{
+    float: right;
+}
+.intro{
+    font-family: dynapuff;
+    text-align: center;
+    color:#617891;
+    font-size: 18px;
+}
+img{
+    height: 160px;
+    width:160px;
+    margin: 24px;
+    border-radius: 12px;
+}
+.scroll-container img{
+    height: 120px;
+    width:120px;
+    margin: 20px;
+    border-radius: 8px ;
+}
+button{
+    background-color: #25344f;
+    color: #d5b893;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: dynapuff;
+}
+button:hover{
+    background-color: #617891;
+}
+.card{
+    font-family: dynapuff;
+    color:#617891;
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    margin-left: 36px;
+    box-shadow: #617891 0px 2px 4px 0px ;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: white;
+    margin-bottom: 28px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.name{
+    font-size: 16px;
+    font-weight: bold;
+} 
+.smallcard{
+    font-family: dynapuff;
+    color:#617891;
+    font-size: 12px;
+    text-align: center;
+    box-shadow: #617891 0px 2px 4px 0px ;
+    border-radius: 12px;
+    background-color: white;
+    min-width: 250px;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+}
+.scroll-container{
+     display: flex;
+     gap: 16px;
+     overflow-x: auto;
+     overflow-y: hidden;
+     scroll-snap-type: x mandatory;
+     -webkit-overflow-scrolling: touch;
+     padding: 16px;
+}
+.about-us{
+    font-family: dynapuff;
+    color:#617891;
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 34px;
+}
+a{
+    color:#25344f ;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: #25344f;
+     font-family: dynapuff;
+     color:#80a6cf;
+     padding: 34px;
+}
+footer div{
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+     color:#80a6cf;
+      line-height: 24px;
+}

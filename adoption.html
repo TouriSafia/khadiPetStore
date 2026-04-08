@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <title>Adoption Form</title>
+    <link rel="stylesheet" href="adoption.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+     <h1>Adoption Request Form</h1>
+<div class="container">
+   
+    <div class="card">
+        <form action="orders.php" method="post">
+<div class="info">
+            <label for="fullname ">full name:</label>
+            <input type="text" id="fullname" placeholder="full name" required><br>
+            
+            <label for="email">email :</label>
+            <input type="email" id="email" placeholder="email" required><br>
+            
+            <label for="address">address :</label>
+            <input type="text" id="address" placeholder="address" required><br>
+            
+            <label for="phone-number">phone-number :</label>
+            <input type="tel" id="phone-number" pattern="\d{10}" title="phone-number" placeholder="0555 88 55 88" required ><br>
+        </div>
+            <label for="payment">payment method :</label><br>
+            
+            <label for="visa">visa card</label>
+            <input type="radio" id="visa" name="payment" value="visa card"><br>
+            
+            <label for="master card">master card</label>
+            <input type="radio" id="master card"name="payment" value="master card"><br>
+            
+            <label for="cash">pay in cash</label>
+            <input type="radio" id="cash" name="payment" value="cash"><br>
+      <!-- <input type="submit" value="send" class="send-button">-->
+      <div class="send-div">
+      <a href="submition.html" class="send-button">send</a>
+      </div>
+        </form>
+    </div>
+</div>
+
+</body>
